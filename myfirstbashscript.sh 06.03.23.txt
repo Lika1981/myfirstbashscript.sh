@@ -1,0 +1,8 @@
+   0 #!/bin/bash
+   1 USER="Lika"
+   2 date 
+   3 echo "hello $USER!"
+   4 pwd 
+   5 ps -ef | wc -l
+   6 ls -la /etc | grep -w "passwd" | awk '{print $1}'
+   7 history > /tmp/history.txt
